@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+.navbar {
+    background-color: #a196f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.navbar-toggler-custom {
+    background-color: #a196f2;
+    border-color: #a196f2;
+    border-radius: 50%;
+    background-image: linear-gradient(#87cefa, #e6e6fa, #a196f2);
+}
+
+.navbar-toggler-custom:hover {
+    background-color: #7f6ecf;
+    border-color: #7f6ecf;
+}
+
+.banner {
+            background-image: url('C://Users//sanika//Documents//Sanika Lad_Prodigy InfoTech//TASK 1 - LANDING PAGE//library-banner.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            color: #fff;
+        }
+
+        .banner h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner p {
+            font-size: 24px;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .section1 {
+            padding: 50px 0;
+            background: linear-gradient(45deg, #87cefa, #e6e6fa, #a196f2);
+            background-size: 200% 200%;
+            animation: gradientAnimation1 10s ease infinite;
+        }
+
+        .section2 {
+            padding: 50px 0;
+            background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+            background-size: 200% 200%;
+            animation: gradientAnimation2 10s ease infinite;
+            margin-bottom: 30px;
+        }
+
+        @keyframes gradientAnimation1 {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes gradientAnimation2 {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Library Management System</a>
+            <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary mx-2" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-success mx-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning mx-2" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-info mx-2" href="#">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger mx-2" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary mx-2" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="text-center">
+            <h1>Welcome to Our Library</h1>
+            <p>Discover the Joy of Reading</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+        </div>
+    </section>
+
+    <div class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit vitae velit viverra eleifend.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit vitae velit viverra eleifend.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Featured Books</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit vitae velit viverra
+                        eleifend.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Events</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit vitae velit viverra
+                        eleifend.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Catalog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit vitae velit viverra
+                        eleifend.</p>
+                </div>
+<div class="col-md-4">
+    <h2>Contact Us</h2>
+    <p><i class="fas fa-phone"></i> Call us: +91 83560 94857</p>
+    <p><i class="fas fa-map-marker-alt"></i> Address: Thakur Complex, Kandivali (East)</p>
+    <p><i class="fas fa-envelope"></i> Email: lad.sanika2003gmail.com</p>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center" >
+            <p>&copy; 2023 Library Management System Landing Page. All rights reserved. | Designed by : SANIKA SATISH LAD</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
